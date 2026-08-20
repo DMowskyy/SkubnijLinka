@@ -1,3 +1,2 @@
 yt-dlp
 pytest
-To download a library, type "pip install {library}", where {library} is the external library.
