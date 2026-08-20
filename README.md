@@ -42,9 +42,22 @@ Before running the program, ensure that the following are installed on your syst
    pip install -r requirements.txt
    ```
 
+**Windows – Common Issues**
+* If the system does not recognize the `.py` extension, download the interpreter from [python.org](https://www.python.org/).
+* 1. Download the `yt_dlp` library: Enter the following command in the terminal:
+  ```bash
+  py -m pip install -U "yt-dlp[default]"
+  ```
+* 2. If `ffmpeg` is missing:
+  ```bash
+  winget install -e --id Gyan.FFmpeg
+  ```
+* 3. Other issues: If you encounter any other problems, please send a private message.
+
 **Example Input:**
-1. python project.py "https://www.youtube.com/watch?v=..." {mp3 or mp4} – remember to enclose the link in quotation marks
-2. python project.py (arguments are entered while the program is running)
+1. py project.py https://www.youtube.com/watch?v=... {mp3 or mp4}
+2. py project.py (you provide the arguments while the program is running)
+(On Linux, use python3)
 
 **Note**
 * This project was created for educational purposes. The tool demonstrates how to download multimedia using Python. The user bears full responsibility for any failure to comply with copyright laws and YouTube's terms of service.
@@ -93,10 +106,22 @@ Zanim uruchomisz program, upewnij się, że w Twoim systemie zainstalowane są:
    ```bash
    pip install -r requirements.txt
    ```
+   
+**Windows-najczęstsze problemy**
+* Jeśli system nie wykrywa rozszerzenia `.py`, pobierz interpreter z [python.org](https://www.python.org/).
+* 1. Pobierz bibliotekę yt_dlp:** Wpisz w terminalu komendę:
+  ```bash
+  py -m pip install -U "yt-dlp[default]"
+* 2. Jeśli nie ma ffmpeg.
+  ```bash
+   winget install -e --id Gyan.FFmpeg
+   ```
+*3. Inne problemy: Jeśli natrafisz na inne problemy, z którymi będziesz miał problem, napisz na PV.
 
-**Przykładowe Wejście:**
-1. python project.py "https://www.youtube.com/watch?v=..." {mp3 lub mp4} - pamiętaj o objęciu linka cudzysłowiem
-2. python project.py (argumenty podajesz w trakcie działania programu)
+**Przykładowe Wejście dla Windowsa:**
+1. py project.py https://www.youtube.com/watch?v=... {mp3 lub mp4} 
+2. py project.py (argumenty podajesz w trakcie działania programu)
+(Dla linuxa jest to python3)
 
 **Notatka**
 * Projekt ten powstał w celach edukacyjnych. Narzędzie to pokazuje, jak pobierać materiały multimedialne przy użyciu języka Python. Użytkownik ponosi pełną odpowiedzialność za wszelkie przypadki naruszenia prawa autorskiego oraz regulaminu serwisu YouTube.
