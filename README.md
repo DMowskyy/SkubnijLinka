@@ -14,7 +14,7 @@ for educational purposes and to provide a secure tool for this purpose.
 * **`project.py`**: The main program file. It contains the logic for validating user input (either via CLI arguments or interactive mode).
 * **`test_project.py`**: A file containing unit tests written using the `pytest` library. It tests the correctness of every function in `project.py`.
 * **`requirements.txt`**: Contains a list of required external libraries to install.
-* **`cookies.txt`**: A file with browser session cookies that helps authorize requests to YouTube.(currently empty)
+* **`cookies.txt`**: A file with browser session cookies that helps authorize requests to YouTube.
 
 **How to prepare cookies?**
 1. Install a browser extension for downloading cookies (I recommend: "Get cookies.txt LOCALLY").
@@ -66,7 +66,7 @@ Mój projekt to aplikacja napisana w języku Python, służąca do pobierania fi
 * **`project.py`**: Główny plik programu. Zawiera logikę odpowiedzialną za walidację wejścia od użytkownika (można przekazać argumenty przez CLI lub korzystać z trybu interaktywnego).
 * **`test_project.py`**: Plik zawierający testy jednostkowe napisane przy użyciu biblioteki `pytest`. Testuje on poprawność działania każdej funkcji zawartej w pliku `project.py`.
 * **`requirements.txt`**: Zawiera listę wymaganych bibliotek zewnętrznych do zainstalowania.
-* **`cookies.txt`**: Plik z ciasteczkami sesji przeglądarki, który pomaga w autoryzacji zapytań do YouTube.(Aktualnie pusty)
+* **`cookies.txt`**: Plik z ciasteczkami sesji przeglądarki, który pomaga w autoryzacji zapytań do YouTube.
 
 **Jak przygotować ciasteczka?**
 1. Zainstaluj w przeglądarce rozszerzenie do pobierania ciasteczek (polecam: "Get cookies.txt LOCALLY").
