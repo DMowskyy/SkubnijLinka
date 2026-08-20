@@ -52,7 +52,7 @@ Before running the program, ensure that the following are installed on your syst
   ```bash
   winget install -e --id Gyan.FFmpeg
   ```
-3. Other issues: If you encounter any other problems, please send a private message.
+3.If you encounter any other problems, please send a private message.
 
 **Example Input:**
 1. py project.py https://www.youtube.com/watch?v=... {mp3 or mp4}
@@ -117,7 +117,7 @@ Zanim uruchomisz program, upewnij się, że w Twoim systemie zainstalowane są:
   ```bash
    winget install -e --id Gyan.FFmpeg
    ```
-3. Inne problemy: Jeśli natrafisz na inne problemy, z którymi będziesz miał problem, napisz na PV.
+3.Jeśli natrafisz na inne problemy, z którymi będziesz miał problem, napisz na PV.
 
 **Przykładowe Wejście dla Windowsa:**
 1. py project.py https://www.youtube.com/watch?v=... {mp3 lub mp4} 
