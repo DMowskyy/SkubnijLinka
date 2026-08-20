@@ -44,15 +44,15 @@ Before running the program, ensure that the following are installed on your syst
 
 **Windows – Common Issues**
 * If the system does not recognize the `.py` extension, download the interpreter from [python.org](https://www.python.org/).
-* 1. Download the `yt_dlp` library: Enter the following command in the terminal:
+1. Download the `yt_dlp` library: Enter the following command in the terminal:
   ```bash
   py -m pip install -U "yt-dlp[default]"
   ```
-* 2. If `ffmpeg` is missing:
+2. If `ffmpeg` is missing:
   ```bash
   winget install -e --id Gyan.FFmpeg
   ```
-* 3. Other issues: If you encounter any other problems, please send a private message.
+3. Other issues: If you encounter any other problems, please send a private message.
 
 **Example Input:**
 1. py project.py https://www.youtube.com/watch?v=... {mp3 or mp4}
@@ -109,14 +109,15 @@ Zanim uruchomisz program, upewnij się, że w Twoim systemie zainstalowane są:
    
 **Windows-najczęstsze problemy**
 * Jeśli system nie wykrywa rozszerzenia `.py`, pobierz interpreter z [python.org](https://www.python.org/).
-* 1. Pobierz bibliotekę yt_dlp:** Wpisz w terminalu komendę:
+1. Pobierz bibliotekę yt_dlp:** Wpisz w terminalu komendę:
   ```bash
   py -m pip install -U "yt-dlp[default]"
-* 2. Jeśli nie ma ffmpeg.
+   ```
+2. Jeśli nie ma ffmpeg.
   ```bash
    winget install -e --id Gyan.FFmpeg
    ```
-*3. Inne problemy: Jeśli natrafisz na inne problemy, z którymi będziesz miał problem, napisz na PV.
+3. Inne problemy: Jeśli natrafisz na inne problemy, z którymi będziesz miał problem, napisz na PV.
 
 **Przykładowe Wejście dla Windowsa:**
 1. py project.py https://www.youtube.com/watch?v=... {mp3 lub mp4} 
